@@ -2,12 +2,12 @@
 import React, { useEffect, useState } from 'react';
 
 const Hero = () => {
-  const titles = ["Software Developer", "UI Designer", "Problem Solver", "Tech Enthusiast"];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [typing, setTyping] = useState(true);
 
   useEffect(() => {
+    const titles = ["Software Developer", "UI Designer", "Problem Solver", "Tech Enthusiast"];
     let interval;
     const currentTitle = titles[currentIndex];
 
@@ -37,7 +37,7 @@ const Hero = () => {
     }
 
     return () => clearInterval(interval);
-  }, [typing, currentIndex, titles]); // Added 'titles' to dependency array
+  }, [typing, currentIndex]); // Removed 'titles' from dependency array
 
   return (
     <div id="hero" className="hero">
