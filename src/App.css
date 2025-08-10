@@ -1,22 +1,14 @@
-﻿@font-face {
-  font-family: 'Poppins';
-  font-weight: 500;
-  font-style: normal;
-  src: url('/assets/Poppins-Medium.ttf') format('truetype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-weight: 300;
-  font-style: normal;
-  src: url('/assets/Poppins-Light.ttf') format('truetype');
-  font-display: swap;
-}
+﻿/* NO @font-face declarations - using Google Fonts only */
 
 /* Base font family for the entire app */
 * {
   font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Medium weight for headings */
@@ -31,7 +23,7 @@ p, span, div, button, input, textarea {
   font-weight: 300;
 }
 
-/* Specific classes for different weights */
+/* Utility classes */
 .font-medium {
   font-family: 'Poppins', Arial, sans-serif;
   font-weight: 500;
@@ -42,7 +34,7 @@ p, span, div, button, input, textarea {
   font-weight: 300;
 }
 
-/* Rest of your existing CSS styles go here */
+/* Your existing component styles go below this line */
 
 html,
 body,
