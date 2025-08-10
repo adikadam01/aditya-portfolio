@@ -1,16 +1,16 @@
 ﻿@font-face {
-  font-family: 'first';
+  font-family: 'Poppins';
   font-weight: 500;
   font-style: normal;
-  src: url('./assets/Poppins-Medium.ttf') format('truetype');
+  src: url('/assets/Poppins-Medium.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'second';
+  font-family: 'Poppins';
   font-weight: 300;
   font-style: normal;
-  src: url('./assets/Poppins-Light.ttf') format('truetype');
+  src: url('/assets/Poppins-Light.ttf') format('truetype');
   font-display: swap;
 }
 
