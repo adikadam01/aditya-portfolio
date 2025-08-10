@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import { initScrollTriggers } from './scroll-trigger.js';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Skills from './components/Skills';
+import About from './components/About';
+import Projects from './components/Projects';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
+  useEffect(() => {
+    const cleanup = initScrollTriggers();
+    return cleanup; // Cleanup observer on unmount
+  }, []); // Run once on mount
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <About />
+      <Projects />
+      <Education />
+      <Contact />
+      <Footer />
     </div>
   );
 }
