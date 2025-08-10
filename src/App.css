@@ -11,12 +11,12 @@
 
 /* Replace your @font-face declarations with: */
 .your-class {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-weight: 500; /* for medium */
 }
 
 .another-class {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-weight: 300; /* for light */
 }
 
