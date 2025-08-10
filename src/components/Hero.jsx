@@ -37,7 +37,7 @@ const Hero = () => {
     }
 
     return () => clearInterval(interval);
-  }, [typing, currentIndex]);
+  }, [typing, currentIndex, titles]); // Added 'titles' to dependency array
 
   return (
     <div id="hero" className="hero">
