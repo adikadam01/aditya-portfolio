@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import './assets/Poppins-Medium.ttf';
 import './assets/Poppins-Light.ttf';
 
+
 function App() {
   useEffect(() => {
     const cleanup = initScrollTriggers();
