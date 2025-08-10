@@ -1,24 +1,48 @@
-﻿/* @font-face {
-  font-family: 'first';
+﻿@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
   src: url('/assets/Poppins-Medium.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'second';
+  font-family: 'Poppins';
   font-weight: 300;
+  font-style: normal;
   src: url('/assets/Poppins-Light.ttf') format('truetype');
-} */
-
-/* Replace your @font-face declarations with: */
-.your-class {
-  font-family: 'Poppins';
-  font-weight: 500; /* for medium */
+  font-display: swap;
 }
 
-.another-class {
-  font-family: 'Poppins';
-  font-weight: 300; /* for light */
+/* Base font family for the entire app */
+* {
+  font-family: 'Poppins', Arial, sans-serif;
 }
+
+/* Medium weight for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* Light weight for body text */
+p, span, div, button, input, textarea {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* Specific classes for different weights */
+.font-medium {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.font-light {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* Rest of your existing CSS styles go here */
 
 html,
 body,
