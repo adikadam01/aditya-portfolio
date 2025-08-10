@@ -11,8 +11,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 // Import fonts from src/fonts so Webpack includes them
-import './assets/Poppins-Medium.ttf';
-import './assets/Poppins-Light.ttf';
+import 'aditya-portfolio/public/assets/Poppins-Medium.ttf';
+import 'aditya-portfolio/public/assets/Poppins-Light.ttf';
 
 function App() {
   useEffect(() => {
