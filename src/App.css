@@ -1,4 +1,4 @@
-﻿@font-face {
+﻿/* @font-face {
   font-family: 'first';
   src: url('/assets/Poppins-Medium.ttf') format('truetype');
 }
@@ -7,8 +7,18 @@
   font-family: 'second';
   font-weight: 300;
   src: url('/assets/Poppins-Light.ttf') format('truetype');
+} */
+
+/* Replace your @font-face declarations with: */
+.your-class {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; /* for medium */
 }
 
+.another-class {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; /* for light */
+}
 
 html,
 body,
