@@ -1,13 +1,13 @@
 ﻿
 @font-face {
   font-family: 'Poppins';
-  src: url('/fonts/Poppins-Medium.ttf') format('truetype');
+  src: url('d:\portfolio1\aditya-portfolio\public\fonts\Poppins-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'second';
   font-weight: 300;
-  src: url('/fonts/Poppins-Light.ttf') format('truetype');
+  src: url('d:\portfolio1\aditya-portfolio\public\fonts\Poppins-Light.ttf') format('truetype');
 }
 
 html,
