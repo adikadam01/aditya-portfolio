@@ -11,9 +11,6 @@ const About = () => {
     document.body.removeChild(link);
   };
 
-  const handleResumeView = () => {
-    window.open("/assets/Aditya_Kadam_Resume.pdf", "_blank");
-  };
 
   return (
     <div id="about" className="about-section">
