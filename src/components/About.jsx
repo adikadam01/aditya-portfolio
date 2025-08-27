@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/adi resume short.pdf";
+    link.href = "/assets/aditya resume new.pdf";
     link.download = "Aditya_Kadam_Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -88,16 +88,16 @@ const About = () => {
               Download Resume
             </button>
 
-            <button onClick={handleResumeView} className="resume-btn view-btn">
+            {/* <button onClick={handleResumeView} className="resume-btn view-btn">
               <span className="btn-icon">👁️</span>
               View Resume
-            </button>
+            </button> */}
           </div>
 
           <div className="resume-info">
             <div className="resume-detail">
               <span className="detail-icon">📊</span>
-              <span>Updated: June 2025</span>
+              <span>Updated: August 2025</span>
             </div>
             <div className="resume-detail">
               <span className="detail-icon">📝</span>
@@ -105,7 +105,7 @@ const About = () => {
             </div>
             <div className="resume-detail">
               <span className="detail-icon">⚡</span>
-              <span>Size: 2.5 MB</span>
+              <span>Size: 340 KB</span>
             </div>
           </div>
         </div>
