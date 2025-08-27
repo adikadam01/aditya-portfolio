@@ -87,11 +87,6 @@ const About = () => {
               <span className="btn-icon">📄</span>
               Download Resume
             </button>
-
-            {/* <button onClick={handleResumeView} className="resume-btn view-btn">
-              <span className="btn-icon">👁️</span>
-              View Resume
-            </button> */}
           </div>
 
           <div className="resume-info">
